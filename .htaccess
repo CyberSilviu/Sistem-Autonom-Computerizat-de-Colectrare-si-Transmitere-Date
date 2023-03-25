@@ -1,0 +1,48 @@
+#remove html file extension https://licenta.silviuandrei.com/index.html
+# to https://licenta.silviuandrei.com/index
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove php file extension https://licenta.silviuandrei.com/data.php
+# to https://licenta.silviuandrei.com/data
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC, L]
+
+#remove html file extension https://licenta.silviuandrei.com/charts.html
+# to https://licenta.silviuandrei.com/charts
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://licenta.silviuandrei.com/3dviewer.html
+# to https://licenta.silviuandrei.com/3dviewer
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove php file extension https://licenta.silviuandrei.com/temperature.php
+# to https://licenta.silviuandrei.com/temperature
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC, L]
+
+#remove php file extension https://licenta.silviuandrei.com/humidity.php
+# to https://licenta.silviuandrei.com/humidity
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC, L]
+
+#remove php file extension https://licenta.silviuandrei.com/airquality.php
+# to https://licenta.silviuandrei.com/airquality
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC, L]
