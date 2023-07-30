@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "u161922539_silviu";
-$password = "Rusu931806809";
-$dbname = "u161922539_silviu";
+$username = "";
+$password = "";
+$dbname = "";
 $api_key_value = "tPmAT5Ab3j7F9";
 
 $api_key= $value1 = $value2 = $value3 ="";
